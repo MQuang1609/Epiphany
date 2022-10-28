@@ -17,9 +17,9 @@ const btn = document.querySelectorAll('.header-list-wrapper button');
 
 function handleChangeTab(btn) {
     const tabActiveElement = document.querySelector('.products');
-    // const featured = document.querySelector('.featured');
+    const featured = document.querySelector('.featured');
     tabActiveElement.classList.toggle('test');
-    // featured.classList.toggle('test');
+    featured.classList.toggle('test');
     const activeElement = document.querySelector('.active');
     console.log(activeElement);
     activeElement.classList.remove('active');
