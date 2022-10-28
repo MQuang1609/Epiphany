@@ -1,0 +1,194 @@
+body {
+    position: relative;
+}
+
+.reviews-Btn {
+    position: fixed;
+    top: 50%;
+    transform: rotate(-90deg);
+    left: -30px;
+    z-index: 999999999;
+}
+
+.reviews-Btn button {
+    border: none;
+    background: #1fb2bb;
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #ffff;
+}
+
+.message-Btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    z-index: 999999999;
+}
+
+.message-Btn button {
+    border: none;
+    background: none;
+    font-size: 40px;
+}
+
+
+
+.img-wrapper {
+    margin-top: 50px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-bottom: 50px;
+    background: url(/assets/MORDEN/morden1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+.img-wrapper a {
+    color: #ffff;
+    position: relative;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 60px;
+}
+
+.img-wrapper a img {
+    opacity: 110%;
+
+}
+
+.img-wrapper a:hover {
+    color: #ffff;
+}
+
+.img-wrapper-link {
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.img-bg-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+    /* height: 111vh; */
+    /* background: rgba(0, 0, 0, 0.3); */
+}
+
+.product-section-title-wrapper {
+    text-align: center;
+}
+
+a.product-section-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+a:hover.product-section-title {
+    color: black;
+}
+
+.product-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: calc(100% / 4 - 30px);
+    margin: 15px 10px;
+    position: relative;
+}
+
+.product .product-price {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.product .heart-icon {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 30px;
+    color: darkred;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px
+}
+
+
+.gallery-img-1 {
+    width: 39%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.gallery-img-2 {
+    width: 29%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.gallery-text {
+    background: gray;
+    width: 29%;
+    height: 50vh;
+}
+
+.gallery-text .text {
+
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50%;
+    transform: translateY(-40px);
+    margin-bottom: 30px;
+
+}
+
+.slide {
+    height: auto;
+}
+
+.carousel {
+    display: block;
+}
+
+.carousel-inner {
+    height: 50vh;
+    display: block;
+}
+
+.carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.buttons {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+    margin-left: 10px;
+}

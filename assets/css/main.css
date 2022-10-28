@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    padding: 50px 30px 10px;
+}
