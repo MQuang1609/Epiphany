@@ -67,16 +67,12 @@
 
 .header-logo {
     height: 150px;
-    width: 350px;
-    /* margin-top: 30px; */
-    /* position: absolute; */
-    /* left: 50%; */
-    transform: translateX(30vw);
 }
 
-.header-logo img {
-    width: 100%;
-    height: 100%;
+.logo {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -136,7 +132,7 @@
     display: none;
 }
 
-.products.test1 {
+.products.active {
     display: flex;
 }
 

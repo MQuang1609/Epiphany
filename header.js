@@ -17,14 +17,14 @@ const btn = document.querySelectorAll('.header-list-wrapper button');
 
 function handleChangeTab(btn) {
     const tabActiveElement = document.querySelector('.products');
-    // const featured = document.querySelector('.featured');
+    const featured = document.querySelector('.featured');
     tabActiveElement.classList.toggle('test');
-    // featured.classList.toggle('test');
-    const activeElement = document.querySelector('.active1');
+    featured.classList.toggle('test');
+    const activeElement = document.querySelector('.active');
     console.log(activeElement);
-    activeElement.classList.remove('active1');
+    activeElement.classList.remove('active');
     const addActiveElement = document.querySelector(btn.getAttribute('data-TabId'));
-    addActiveElement.classList.add('active1');
+    addActiveElement.classList.add('active');
     // headerContent.classList.toggle('test');
 
 
