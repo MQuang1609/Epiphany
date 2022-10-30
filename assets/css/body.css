@@ -85,6 +85,15 @@ main {
     width: 100vw;
 }
 
+.productList-title a {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productList-title a:hover {
+    color: black;
+}
 
 .gallery {
     display: flex;
@@ -152,4 +161,35 @@ main {
 
 .button {
     margin-left: 10px;
+}
+
+.productList-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.product-detail {
+    width: calc(100% /4 - 20px);
+    margin: 10px 0;
+    position: relative;
+}
+
+.product-price {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.product-detail a:hover {
+    color: black;
+}
+
+.new-icon-wrapper {
+    width: 20%;
+    height: 15%;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
