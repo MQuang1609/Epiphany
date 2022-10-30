@@ -243,3 +243,31 @@ main {
     width: 80%;
     height: auto;
 }
+
+.blog-title a:hover {
+    color: #25a7ad;
+
+}
+
+.blog-content-title {
+    margin: 20px 0;
+}
+
+.blog-content a:hover h3 {
+    color: #25a7ad;
+}
+
+.blog-content.middle {
+    border-right: 1px solid rgb(211, 211, 211);
+    border-left: 1px solid rgb(211, 211, 211);
+}
+
+.blog-content {
+    padding: 0 20px;
+
+}
+
+.blog-content p {
+    text-align: start;
+    font-size: 20px;
+}
