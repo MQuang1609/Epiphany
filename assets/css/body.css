@@ -218,13 +218,6 @@ main {
     margin-left: 10px;
 }
 
-.blog-slides {
-    margin: 50px;
-    height: 300px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 
 .slider {
     text-align: center;
