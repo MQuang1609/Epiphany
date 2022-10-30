@@ -227,6 +227,10 @@ main {
     align-items: center;
 }
 
+.blog-slide {
+    height: 250px
+}
+
 .blog-slide-img {
     margin: 0 auto;
     width: 220px;
