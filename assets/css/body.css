@@ -121,7 +121,7 @@ main {
 .productImg {
     overflow: hidden;
     position: relative;
-    height: 300px;
+    height: 250px;
     margin-bottom: 10px;
 
 }
@@ -216,4 +216,25 @@ main {
 
 .button {
     margin-left: 10px;
+}
+
+
+.slider {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    justify-content: center;
+}
+
+.blog-slide-img {
+    margin: 0 auto;
+    width: 220px;
+    height: 70px;
+}
+
+.blog-slide-img.quote {
+    object-fit: contain;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
 }
