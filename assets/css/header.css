@@ -89,7 +89,9 @@
 
 .header-list-wrapper .link {
     margin-left: 70px;
-    font-size: 25px;
+    font-size: 30px;
+    display: flex;
+    position: relative;
 }
 
 .header-list-wrapper button {
@@ -105,6 +107,29 @@
 .header-list-wrapper .link:hover a {
     background: #e5f3f3;
     color: black;
+}
+
+.allow {
+    margin-left: 5px;
+    opacity: 1;
+}
+
+.allow.active4 {
+    opacity: 0;
+    margin-left: 5px;
+}
+
+.multiply {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-5px);
+
+    opacity: 0;
+}
+
+.multiply.active3 {
+    opacity: 1;
 }
 
 .header-content {
@@ -126,7 +151,6 @@
 
 .products {
     display: none;
-
 }
 
 .featured {
@@ -135,7 +159,6 @@
 
 .products.active2 {
     display: flex;
-
 }
 
 .featured.active2 {
@@ -155,16 +178,16 @@
 
     border: flex;
     margin-left: 0px;
-    padding: 2px;
-    border: 4px solid rgba(0, 0, 0, 0);
+
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
 .product-list {
-    border: 4px solid rgba(0, 0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
 .product-list:hover .card {
-    border: 4px solid black;
+    border: 3px solid black;
     background: #e5f3f3;
 }
 
@@ -173,7 +196,7 @@
 }
 
 .card-body {
-    border: 4px solid rgba(0, 0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, 0);
     background: rgba(0, 0, 0, 0.1);
     background: white;
 }
@@ -205,9 +228,11 @@
     margin-left: 20px;
     height: 100%;
     width: 35%;
-    border: 4px solid rgba(0, 0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, 0);
+    object-fit: cover;
 }
 
 .featured-img:hover {
-    border: 4px solid black;
+    border: 3px solid black;
+    object-fit: cover;
 }

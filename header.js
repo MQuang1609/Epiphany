@@ -16,12 +16,15 @@ const btn = document.querySelectorAll('.header-list-wrapper button');
 // }
 
 function handleChangeTab(btn) {
-
     const activeElement = document.querySelector('.active2');
 
     activeElement.classList.remove('active2');
     const addActiveElement = document.querySelector(btn.getAttribute('data-TabId'));
     addActiveElement.classList.add('active2');
+    const multiply = document.querySelector('.multiply');
+    multiply.classList.toggle('active3');
+    const allow = document.querySelector('.allow');
+    allow.classList.toggle('active4');
     const products = document.querySelector('.products');
     const test = document.querySelector('.featured');
     products.classList.toggle('test');
