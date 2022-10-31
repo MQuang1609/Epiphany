@@ -126,19 +126,22 @@
 
 .products {
     display: none;
+
 }
 
 .featured {
     display: none;
 }
 
-.products.active {
+.products.active2 {
+    display: flex;
+
+}
+
+.featured.active2 {
     display: flex;
 }
 
-/* .featured.active_2 {
-    display: flex;
-} */
 
 .products.test {
     display: none;

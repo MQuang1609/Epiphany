@@ -16,16 +16,17 @@ const btn = document.querySelectorAll('.header-list-wrapper button');
 // }
 
 function handleChangeTab(btn) {
-    const tabActiveElement = document.querySelector('.products');
-    const featured = document.querySelector('.featured');
-    tabActiveElement.classList.toggle('test');
-    featured.classList.toggle('test');
-    const activeElement = document.querySelector('.active');
-    console.log(activeElement);
-    activeElement.classList.remove('active');
+
+    const activeElement = document.querySelector('.active2');
+
+    activeElement.classList.remove('active2');
     const addActiveElement = document.querySelector(btn.getAttribute('data-TabId'));
-    addActiveElement.classList.add('active');
-    // headerContent.classList.toggle('test');
+    addActiveElement.classList.add('active2');
+    const products = document.querySelector('.products');
+    const test = document.querySelector('.featured');
+    products.classList.toggle('test');
+    test.classList.toggle('test');
+    console.log(activeElement);
 
 
 }
