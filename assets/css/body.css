@@ -285,6 +285,7 @@ main {
     width: 100%;
     height: 50px;
     background: lightcoral;
+    margin-bottom: 10px;
 }
 
 .blog-title a:hover {
